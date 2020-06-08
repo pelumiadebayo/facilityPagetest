@@ -1,0 +1,57 @@
+.header {
+    font-size: smaller;
+}
+
+.services {
+    margin-top: 40px;
+    font-size: smaller;
+    margin-bottom: 60px;
+}
+
+.line {
+    margin-bottom: 40px;
+}
+
+.like {
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.elegant {
+    margin-top: 10px;
+}
+
+.personal {
+    margin-top: 10px;
+}
+
+.presidential {
+    margin-top: 10px;
+}
+
+.butto1 {
+    width: 71px;
+    height: 34px;
+    text-align-last: center;
+}
+
+.butto2 {
+    width: 71px;
+    height: 34px;
+    text-align-last: center;
+    padding-left: 25px;
+}
+
+.butto3 {
+    width: 75px;
+    height: 34px;
+    text-align-last: center;
+    text-align: center;
+    line-height: unset;
+}
+
+.you {
+    margin-bottom: 200px;
+    margin-left: 0px;
+    padding-left: 17px;
+}
