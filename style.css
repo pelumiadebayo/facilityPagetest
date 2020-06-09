@@ -128,8 +128,8 @@
 
 
 
-.container{
-    margin: 10%;
+#container{
+    margin-top: 2rem;
 }
 .roomfacility{   
     padding-left: 2rem;
