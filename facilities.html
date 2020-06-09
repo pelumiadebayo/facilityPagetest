@@ -6,11 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <main class="container">
-        <section>
+    <main>
+    <div id="double-room-book-rooms">
+        <div id="double-room">
+            <div id="top">
+                <div class="checkout">
+                    <h4>DOUBLE ROOM</h4>
+                    <p class="sub-head" id="text">Checkout our Double Room Option for your Comfort</p>
+                </div>
+                <div class="night">
+                    <h4> N120,000</h4>
+                    <p class="sub-head">/night</p>
+                </div>
+            </div>
+            <img id="imag" src="./img/Rectangle 118.png" alt="first-image">
+        </div>
+        
+        <div id="book-rooms">
+            <form action="#" method="post" id="form-book-rooms">
+                <h6>BOOK YOUR</h6>
+                <h3 id="rooms-book-rooms">ROOMS</h3>
+
+                <input type="text" name="arrival" class="date" onfocus="(this.type='date')" 
+                placeholder="ARRIVAL" required><br><br>
+                <input type="text" name="departure" class="date" onfocus="(this.type='date')" 
+                placeholder="DEPARTURE" required><br><br>
+                <input list="rums1" class="num" name="rums1" placeholder="1 ROOM" required>
+                    <datalist id="rums1" >
+                        <option value="1 ROOM">
+                        <option value="2 ROOMS">
+                        <option value="3 ROOMS">
+                        <option value="4 ROOMS">
+                        <option value="5 ROOMS">
+                    </datalist>
+                <span class="hidden"><br></span>
+                <input list="rums2" name="beds" class="num" name="rums2" placeholder="BEDS" required>
+                    <datalist id="rums2">
+                        <option value="1 BED">
+                        <option value="2 BEDS">
+                        <option value="3 BEDS">
+                        <option value="4 BEDS">
+                        <option value="5 BEDS">
+                    </datalist>
+                <br><br>
+                <input list="rums3" name="adult" class="num" placeholder="1 ADULT" required>
+                    <datalist id="rums3">
+                        <option value="1 ADULT">
+                        <option value="2 ADULTS">
+                        <option value="3 ADULTS">
+                        <option value="4 ADULTS">
+                        <option value="5 ADULTS">
+                    </datalist>
+                <span class="hidden"><br></span>
+                <input list="rums4" name="child" class="num" placeholder="1 CHILD" required>
+                    <datalist id="rums4">
+                        <option value="1 CHILD">
+                        <option value="2 CHILDREN">
+                        <option value="3 CHILDREN">
+                        <option value="4 CHILDREN">
+                        <option value="5 CHILDREN">
+                    </datalist>
+                <br><br>
+                <div id="book-div"><button type="submit" id="book">BOOK</button>
+            </form>
+        </div>
+    </div>
+
+        <section id="container">
             <p>Room Facilities</p>
             <hr />
             <div class="row roomfacility">
@@ -37,7 +105,7 @@
                             d="M35.8438 4.93324H31.2188L30.7013 3.83017C30.5093 3.42045 30.2141 3.07586 29.8488 2.83502C29.4835 2.59418 29.0625 2.46659 28.6331 2.46656H24.7582L22.7868 0.363725C22.0576 -0.413277 20.8125 0.137099 20.8125 1.23554V12.7857L30.0625 16.3092V13.5666H32.375C34.9296 13.5666 37 11.3582 37 8.63325V6.16658C37 5.48516 36.4826 4.93324 35.8438 4.93324ZM27.75 8.63325C27.1112 8.63325 26.5938 8.08133 26.5938 7.39991C26.5938 6.71849 27.1112 6.16658 27.75 6.16658C28.3888 6.16658 28.9062 6.71849 28.9062 7.39991C28.9062 8.08133 28.3888 8.63325 27.75 8.63325ZM6.9375 14.7999C5.66273 14.7999 4.625 13.693 4.625 12.3333C4.625 10.9712 3.58943 9.86659 2.3125 9.86659C1.03557 9.86659 0 10.9712 0 12.3333C0 15.5446 1.93889 18.2571 4.625 19.2785V35.7667C4.625 36.4481 5.14242 37 5.78125 37H10.4062C11.0451 37 11.5625 36.4481 11.5625 35.7667V27.1333H23.125V35.7667C23.125 36.4481 23.6424 37 24.2812 37H28.9062C29.5451 37 30.0625 36.4481 30.0625 35.7667V18.9278L19.2263 14.7999H6.9375Z"
                             fill="#333333" />
                     </svg>
-                    <span>Pet</span>
+                    <span>Allow Pets</span>
                 </div>
                 <div class=" iconsection">
                     <svg width="36" height="29" viewBox="0 0 36 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,6 +164,52 @@
         </section>
     </main>
 
+ <div class="container header">
+        <section>
+            <div class="row ser">
+                <div class="col-md-9 services">Services includes; In- Door Swimming Pool, Free Breakfast, High speed Internet, Free Airport Pickup & Drop-Off, Car Rental, Beach Tour, Pool Lounge, Duplex-Style Serviced Apartments, Maximum Security, 24/7 Power Supply and many more.</div>
+            </div>
+            <div class="col-md-9 line">
+                <hr>
+
+            </div>
+
+            <div class=" row ">
+                <div class="col-md-3 like "><b>You may also like</b></div>
+            </div>
+            <div class="row you ">
+                <div class="col-md-3 ">
+                    <img class="row img-fluid " src="Rectangle 111.png " alt="Chania " width="360px " height="360px ">
+                    <div class="row elegant ">
+                        <br class="col-md-1 ">Elegant Room<br>N140,000/night</br>
+                        <a class="col-md-4 " href="# " role="button "></a>
+                        <button type="button " class="btn btn-outline-primary butto1 ">Book</button>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+                    <img class="row img-fluid " src="Rectangle 112.png " alt="Chania " width="360px " height="360px ">
+                    <div class="row personal ">
+                        <br class="col-md-1 ">Personal Room<br>N80,000/night</br>
+                        <a class="col-md-4 " href="# " role="button "></a>
+                        <button type="button " class="btn btn-outline-primary butto2 ">Book</button>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+                    <img class="row img-fluid " src="Rectangle 113.png " alt="Chania " width="360px " height="360px ">
+                    <div class="row presidential ">
+                        <br class="col-md-1 ">Presidential Room<br>N300,000/night</br>
+                        <a class="col-md-3 but " href="# " role="button "></a>
+                        <button type="button " class="btn btn-outline-primary butto3 ">Book</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </div>
 
     
      <div class="container header">
