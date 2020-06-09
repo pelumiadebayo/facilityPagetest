@@ -1,0 +1,100 @@
+.container {
+    margin: 10%;
+}
+
+.roomfacility {
+    padding-left: 2rem;
+}
+
+.iconsection {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: 25%;
+}
+
+@media screen and (max-width: 48rem) {
+    .iconsection {
+        margin-bottom: 3%;
+        margin-top: 3%;
+        width: 50%;
+    }
+    .roomfacility {
+        padding-left: 1rem;
+    }
+}
+
+span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0.5rem;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.header {
+    font-size: smaller;
+}
+
+.services {
+    margin-top: 0px;
+    font-size: smaller;
+    margin-bottom: 100px;
+}
+
+.line {
+    margin-bottom: 50px;
+    margin-left: -16px;
+}
+
+.like {
+    font-size: large;
+    margin-bottom: 17px;
+}
+
+.elegant {
+    margin-top: 10px;
+}
+
+.personal {
+    margin-top: 10px;
+}
+
+.presidential {
+    margin-top: 10px;
+}
+
+.butto1 {
+    width: 71px;
+    height: 34px;
+    text-align-last: center;
+}
+
+.butto2 {
+    width: 71px;
+    height: 34px;
+    text-align-last: center;
+    padding-left: 25px;
+}
+
+.butto3 {
+    width: 75px;
+    height: 34px;
+    text-align-last: center;
+    text-align: center;
+    line-height: unset;
+}
+
+.you {
+    margin-bottom: 200px;
+    margin-left: 0px;
+    padding-left: 17px;
+}
