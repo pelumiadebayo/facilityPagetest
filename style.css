@@ -1,10 +1,17 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    
+}
 #double-room-book-rooms{
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: 75% 25%;
-    padding-left: 80px;
-    padding-right: 80px;
+    /* padding-left: 80px;
+    padding-right: 80px; */
     font-family: 'Roboto', sans-serif;
     padding-top: 50px;
 }
@@ -13,6 +20,7 @@
 }
 #book-rooms{
     float: left;
+    margin-left: 30px;
     
 }
 #form-book-rooms{
@@ -125,12 +133,119 @@
         grid-template-columns: 70% 30%;
     }
 }
+ 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .more-images {
+       flex-wrap: wrap;
+       padding-bottom: 20px;
+    }
+ 
+    .more-images img {
+       padding-bottom: 20px;
+    }
+ 
+    [fifth-image] {
+       width: 196px;
+    }
+ 
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+ 
+    .more-images {
+       flex-wrap: wrap;
+    }
+ 
+    .more-images img {
+       margin-top: 20px; 
+    }
+ 
+    
+    [fifth-image] {
+       width: 196px;
+    }
+ 
+    .customer-review-section {
+        margin-left: 30px ;
+    }
+    
+ }
+ 
+ .more-images-container {
+    /* padding: 0 15px; */
+    /* overflow-x: hidden; */
+    display: flex;
+    margin-bottom: 90px;
+ }
+ .more-images {
+    display: flex;
+ }
 
+ [fifth-image] {
+    width: 80px;
+ }
+ 
+ .more-images img {
+    height: 140px;
+    padding-right: 6.6px;
+    margin-bottom: 77px;
+ }
+ 
+ .customer-review-section {
+    width: 275px;
+    height: 465px;
+    margin-left: 20px;
+ }
+ 
+ #customer-review-header {
+    font-size: 28px;
+    color: #333333;
+    font-weight: 500;
+ }
+ 
+ .review {
+    background: #FAFDFF;
+    height: 465px;
+    margin-top: 24px;
+ }
+ #customer-review {
+    width: 231px;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 24px 0 0 26px;
+    padding-top: 56px;
+ }
+ 
+ #customer-img {
+    margin: 26px 0 0 26px;
+    height: 63px;
+ }
+ 
+ #customer-name {
+    font-size: 18px;
+    margin: 50px 0 0 15px;
+    position: absolute;
+ }
+ 
+ .btn {
+    text-decoration: none;
+    margin-left: 15px;  
+    font-size: 2rem;
+    color: #000;
+    margin-top: 50px;
+ }
+ 
+ .next-round {
+    padding-left: 205px;
+ }
 
 
 #container{
     margin-top: 2rem;
 }
+
 .roomfacility{   
     padding-left: 2rem;
 }
@@ -149,6 +264,7 @@
         padding-left: 1rem;
     }
 }
+
 
 span{
 font-family: Roboto;
