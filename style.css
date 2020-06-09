@@ -118,12 +118,14 @@
     #text{
         padding-top: 10px;
         line-height: 15px;
+    }
 }
 @media only screen and (max-width: 558px) {
     #top{
         grid-template-columns: 70% 30%;
     }
 }
+
 
 
 .container{
