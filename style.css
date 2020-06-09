@@ -1,3 +1,133 @@
+
+#double-room-book-rooms{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 75% 25%;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+}
+#double-room{
+    float: left;
+}
+#book-rooms{
+    float: left;
+    
+}
+#form-book-rooms{
+    background-color: #FAFDFF;
+    padding: 10px 20px 60px 20px;
+}
+#top{
+    display: grid;
+    grid-template-columns: 88.7% 11.3%;
+}
+.sub-head{
+    margin-top: -17px;
+    font-size: small;
+}
+#imag{
+    width: 100%;
+    height: auto;
+}
+.date{
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #FAFDFF;
+    outline: none;
+}
+.num{
+    width: 45.9%;
+    border: none;
+    background-color: #FAFDFF;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+#book-div{
+    text-align: center;
+}
+#book{
+    width: 98%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FAFDFF;
+    border-radius: 10px;
+    border-width: 1px;
+    outline: none;
+}
+#book:hover{
+    background-color: black;
+    border-color: #FAFDFF;
+    color: #FAFDFF;
+}
+#book:active{
+    background-color: #FAFDFF;
+    border-color: black;
+    color: black;
+}
+#rooms-book-rooms{
+    margin-top: -15px;
+}
+.hidden{
+    display: none;
+}
+@media only screen and (max-width: 1243px) {
+    #top{
+        grid-template-columns: 87% 13%;
+    }
+}
+
+@media only screen and (max-width: 1102px) {
+    .hidden{
+        display: inline;
+    }
+    #top{
+        grid-template-columns: 83% 17%;
+    }
+    .num{
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 902px) {
+    #top{
+        grid-template-columns: 78% 17%;
+    }
+}
+
+@media only screen and (max-width: 733px) {
+    #double-room-book-rooms{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
+    .num{
+        width: 45.9%;
+    }
+    #top{
+        grid-template-columns: 80% 20%;
+    }
+}
+@media only screen and (max-width: 733px) {
+    #top{
+        grid-template-columns: 75% 25%;
+    }
+    #text{
+        padding-top: 10px;
+        line-height: 15px;
+    }
+}
+@media only screen and (max-width: 558px) {
+    #top{
+        grid-template-columns: 70% 30%;
+    }
+}
+
+
+
 .container{
     margin: 10%;
 }
