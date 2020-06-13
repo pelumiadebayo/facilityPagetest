@@ -412,44 +412,97 @@ p{
     margin-bottom: 17px;
 }
 
-.elegant {
-    margin-top: 10px;
+.cards{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+    margin-bottom: 80px;
+    }
+
+.read{
+
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
 
-.personal {
-    margin-top: 10px;
+.read-text{
+    display: flex;
+    justify-content: space-between;
 }
+ 
+.read-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .book{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .read img{
+    width: 250px;
+    height: 190px;
+    margin-bottom:25px;
+  }
 
-.presidential {
-    margin-top: 10px;
-}
+  .read-text p {
+    font-size: 1.3vw;
+    max-width: 374px;
+  }
+   
+  .read-text a{
+    color: rgb(0, 0, 250);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid rgb(0, 0, 250);
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
 
-.butto1 {
-    width: 71px;
-    height: 34px;
-    text-align-last: center;
-}
-
-.butto2 {
-    width: 71px;
-    height: 34px;
-    text-align-last: center;
-    padding-left: 25px;
-}
-
-.butto3 {
-    width: 75px;
-    height: 34px;
-    text-align-last: center;
-    text-align: center;
-    line-height: unset;
-}
-
-.you {
+  .read-text a:hover {
+      text-decoration: none;
+      background: rgb(0, 0, 250); 
+      color: white;
+  }
+  
+  .read-text h5{
+    font-size: 14px;
+    margin-bottom:0;
+  }
+  
+   
+  @media (max-width:800px){
+  
+    .rooms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .content h2{
+        font-size: 17px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .cards{
+        grid-template-columns: 1fr ;
+        grid-row-gap: 30px;
+        margin: 40px;
+    }
+    .you {
     margin-bottom: 200px;
     margin-left: 0px;
     padding-left: 17px;
-}
+} }
+
+
+
 
 .clas{
     margin-bottom: 55px;
@@ -517,4 +570,4 @@ p{
     #footer{
      font-size:2vw;
     }
-   }
+}
